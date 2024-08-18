@@ -1,6 +1,6 @@
 import Button from "./components/button";
 import Header from "./components/header";
-import Navbar from "./components/navigationbar";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -20,8 +20,8 @@ export default function Page() {
           <p className="text-white text-sm md:text-base mt-4 ml-3 lg:ml-8">
             I specialize in turning creative ideas into functional digital
             experiences, leveraging the latest technologies and best practices
-            in web development. Whether it's crafting responsive designs or
-            optimizing site performance, I’m dedicated to delivering
+            in web development. Whether it&aposs crafting responsive designs or
+            optimizing site performance, I&aposm dedicated to delivering
             high-quality results that exceed expectations.
           </p>
           <div className="flex mt-4 ml-3 lg:ml-4 ">
@@ -30,7 +30,7 @@ export default function Page() {
           </div>
         </div>
         <div>
-          <img
+          <Image
             src="https://img.freepik.com/premium-photo/man-sitting-front-laptop-computer_1072138-131276.jpg"
             alt="image"
             className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-full mt-6 lg:mt-0 "
