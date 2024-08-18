@@ -67,11 +67,11 @@ export default function About() {
       <Header prop="#0cf0a8" />
 
       <div className="flex flex-col">
-        <div className="ml-4 text-xl">
+        <div className="ml-4 text-xl flex justify-center flex-col items-center">
           <h2 className="text-3xl font-extrabold mt-8 lg:mt-14 text-center">
             <u>About Me</u>
           </h2>
-          <p className="mt-4 lg:w-[650px] text-center lg:ml-36 font-light">
+          <p className="mt-4 lg:w-[650px] text-center  font-light">
             I&apos;m a passionate <b>web developer</b> with a strong dedication to creating
             elegant and functional websites. With a background in Information
             Technology, I&apos;ve honed my skills in front-end and back-end
