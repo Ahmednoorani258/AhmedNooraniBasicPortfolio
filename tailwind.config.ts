@@ -22,7 +22,7 @@ const config: Config = {
         'card-hover': '0 15px 30px rgba(0, 0, 0, 0.5)',
       },
       scale: {
-        '102': '1.2',
+        '102': '1.25',
       },
       transitionDuration: {
         '400': '400ms',

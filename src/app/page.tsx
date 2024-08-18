@@ -1,5 +1,6 @@
 import Button from "./components/button";
 import Header from "./components/header";
+import Image from "next/image";
 
 
 export default function Page() {
@@ -30,10 +31,12 @@ export default function Page() {
           </div>
         </div>
         <div>
-          <img
+          <Image
             src="https://img.freepik.com/premium-photo/man-sitting-front-laptop-computer_1072138-131276.jpg"
             alt="img"
             className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] rounded-full mt-6 lg:mt-0 "
+            width={300}
+            height={300}
             
           />
         </div>
